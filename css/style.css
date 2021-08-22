@@ -1,95 +1,102 @@
+/*body{*/
+/*    background :url("../img/speace.jpg") no-repeat center center;!* 背景图路径  背景图不平铺    背景图垂直、水平均居中 *!*/
+/*    background-size:cover; 	!* 让背景图基于容器大小伸缩 *!*/
+/*    background-attachment:fixed; !* 当内容高度大于图片高度时，背景图像的位置相对于 可视窗口 固定，此条属性必须设置 *!*/
+/*    background-color:#CCCCCC; !* 设置背景颜色，背景图加载过程中会显示背景色 *!*/
+/*}*/
 
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
 
 #top1{
-	width: 100%;
-	background: url("../img/speace.jpg") no-repeat;/*no-repeat:背景图将不会被重复*/
-	background-size: cover;/*背景图片放大到适合元素容器的尺寸，图片比例不变.背景图像的某些部分可能无法显示在背景定位区域中。*/
-	padding-bottom: 56.24%;/*起到的效果是让宽度与高度关联,具体数值=(图片高/图片宽)*/
+    width: 100%;
+    background: url("../img/speace.jpg") no-repeat;/*no-repeat:背景图将不会被重复*/
+    background-size: cover;/*背景图片放大到适合元素容器的尺寸，图片比例不变.背景图像的某些部分可能无法显示在背景定位区域中。*/
+    padding-bottom: 56.24%;/*起到的效果是让宽度与高度关联,具体数值=(图片高/图片宽)*/
 }
 
 #top-next{
-	width: 100%;
-	background: rgba(204,204,210,0.77);
-	position: absolute;
-	top: 1185px;
-	width: 100%;
-	height: 200px;
+    width: 100%;
+    background: rgba(204,204,210,0.77);
+    position: absolute;
+    top: 1185px;
+    width: 100%;
+    height: 200px;
 }
 
 .midword p{
-	color: #dddddd;
-	font-size: 20px;
-	line-height: 65px;
-	text-align: center;
+    color: #dddddd;
+    font-size: 20px;
+    line-height: 65px;
+    text-align: center;
 }
 
 .midword{
-	width: 250px;
-	height: 70px;
-	position: absolute;
-	top: 70%;
-	left: 45%;
-	background-image: linear-gradient(rgba(1,67,136,0.77),rgba(26,181,226,0.77));
-	border-radius: 40px;
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    background-image: linear-gradient(rgba(1,67,136,0.77),rgba(26,181,226,0.77));
+    border-radius: 40px;
 
 }
 
 .look a{
-	font-family: Calibri;
-	font-size: 20px;
-	color: aliceblue;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	float: left;
-	padding: 14px 16px;
+    font-family: Calibri;
+  font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 14px 16px;
 }
 
 .look a:hover {
-	background-color: #ddd;
-	color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 #top1 h1{
-	font-size: 80px;
-	font-family: Calibri;
-	position: absolute;
-	top: 500px;
-	left:800px;
-	color: #dddddd;
+    font-size: 80px;
+    font-family: Calibri;
+    position: absolute;
+    top: 500px;
+    left:800px;
+    color: #dddddd;
 }
 
 #mc {
 
-	z-index: 10;
-	position: absolute;
-	/* position: fixed; */
-	left: 2050PX;
-	top: 1150px;
-	width: 0;
-	height: 0;
-	border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    /* position: fixed; */
+    left: 2050PX;
+    top: 1150px;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
 }
 /*设置转动的音乐图标*/
 #mc img {
-	border-radius: 20%;
-	width: 30px;
-	height: 30px;
-	display: block;
-	animation: rotate 6s linear infinite;
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    animation: rotate 6s linear infinite;
 }
 /*音乐图标转动*/
 @keyframes rotate{
-	0%{
-		transform: rotateZ(0deg);/*从0度开始*/
-	}
-	100%{
-		transform: rotateZ(360deg);/*360度结束*/
-	}
+    0%{
+        transform: rotateZ(0deg);/*从0度开始*/
+    }
+    100%{
+        transform: rotateZ(360deg);/*360度结束*/
+    }
 }
+
